@@ -1,0 +1,22 @@
+:root {
+  --blue: #2c71f0;
+  --black: #01090f;
+  --bg-color: #f4f3f6;
+  --border-color: #e8ebf2;
+  --white: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--black);
+  -webkit-font-smoothing: antialiased;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
